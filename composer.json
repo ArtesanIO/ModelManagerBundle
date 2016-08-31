@@ -1,0 +1,19 @@
+{
+    "name": "artesan-io/model-manager-bundle",
+    "type": "symfony-bundle",
+    "description": "ModelManagerBundle",
+    "keywords": ["Entity", "Model", "Manager", "EntityManager"],
+    "homepage": "https://www.cristianangulo.com",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Cristian Angulo Nova",
+            "email": "cristianangulonova@gmail.com",
+            "homepage": "http://cristianangulo.com",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": { "ArtesanIO\\ModelManagerBundle\\": "" }
+    }
+}

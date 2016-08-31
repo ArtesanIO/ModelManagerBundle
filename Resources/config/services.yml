@@ -1,0 +1,8 @@
+services:
+    artesanus.model_manager:
+      abstract: true
+      calls:
+        - [ setEntityManager, [ "@doctrine.orm.entity_manager" ] ]
+        - [ setDispatcher, [ "@event_dispatcher" ] ]
+        - [ setFormFactory, [ "@form.factory" ] ]
+        - [setContainer, ["@service_container"]]
